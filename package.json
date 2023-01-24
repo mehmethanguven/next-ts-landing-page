@@ -15,7 +15,8 @@
     "test:jest": "jest",
     "test:ci": "jest --ci",
     "jest:clear": "jest --clearCache",
-    "test": "jest"
+    "test": "jest --coverage",
+    "test:all": "yarn test:cypress && yarn test:jest"
   },
   "dependencies": {
     "@headlessui/react": "^1.7.7",
