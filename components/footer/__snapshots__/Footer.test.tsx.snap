@@ -1,0 +1,213 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer test should to match snapshot 1`] = `
+<DocumentFragment>
+  <footer
+    class="bg-veryDarkBlue"
+  >
+    <div
+      class="container mx-auto flex flex-col-reverse justify-between space-y-8 px-6 py-10 md:flex-row md:space-y-0"
+    >
+      <div
+        class="flex flex-col-reverse items-center justify-between space-y-12 md:flex-col md:items-start md:space-y-0"
+      >
+        <div
+          class="mx-auto my-6 text-center text-white md:hidden"
+        >
+          © Copyright 2023, All Rights Reserved
+        </div>
+        <div>
+          <img
+            alt=""
+            class="h-8 w-full"
+            data-nimg="1"
+            decoding="async"
+            height="0"
+            loading="lazy"
+            src="/images/logo-white.svg"
+            style="color: transparent;"
+            width="0"
+          />
+        </div>
+        <div
+          class="flex justify-center space-x-4"
+        >
+          <a
+            href=""
+          >
+            <img
+              alt=""
+              class="h-8 w-8"
+              data-nimg="1"
+              decoding="async"
+              height="0"
+              loading="lazy"
+              src="/images/icon-facebook.svg"
+              style="color: transparent;"
+              width="0"
+            />
+          </a>
+          <a
+            href=""
+          >
+            <img
+              alt=""
+              class="h-8 w-8"
+              data-nimg="1"
+              decoding="async"
+              height="0"
+              loading="lazy"
+              src="/images/icon-youtube.svg"
+              style="color: transparent;"
+              width="0"
+            />
+          </a>
+          <a
+            href=""
+          >
+            <img
+              alt=""
+              class="h-8 w-8"
+              data-nimg="1"
+              decoding="async"
+              height="0"
+              loading="lazy"
+              src="/images/icon-twitter.svg"
+              style="color: transparent;"
+              width="0"
+            />
+          </a>
+          <a
+            href=""
+          >
+            <img
+              alt=""
+              class="h-8 w-8"
+              data-nimg="1"
+              decoding="async"
+              height="0"
+              loading="lazy"
+              src="/images/icon-pinterest.svg"
+              style="color: transparent;"
+              width="0"
+            />
+          </a>
+          <a
+            href=""
+          >
+            <img
+              alt=""
+              class="h-8 w-8"
+              data-nimg="1"
+              decoding="async"
+              height="0"
+              loading="lazy"
+              src="/images/icon-instagram.svg"
+              style="color: transparent;"
+              width="0"
+            />
+          </a>
+        </div>
+      </div>
+      <div
+        class="flex justify-around space-x-32"
+      >
+        <div
+          class="flex h-44 flex-col flex-wrap gap-x-12 gap-y-4 text-white"
+        >
+          <a
+            href="/"
+          >
+            <div
+              class="hover:text-brightRed"
+            >
+              Home
+            </div>
+          </a>
+          <a
+            href="/pricing"
+          >
+            <div
+              class="hover:text-brightRed"
+            >
+              Pricing
+            </div>
+          </a>
+          <a
+            href="/products"
+          >
+            <div
+              class="hover:text-brightRed"
+            >
+              Products
+            </div>
+          </a>
+          <a
+            href="/about"
+          >
+            <div
+              class="hover:text-brightRed"
+            >
+              About
+            </div>
+          </a>
+          <a
+            href="/careers"
+          >
+            <div
+              class="hover:text-brightRed"
+            >
+              Careers
+            </div>
+          </a>
+          <a
+            href="/community"
+          >
+            <div
+              class="hover:text-brightRed"
+            >
+              Community
+            </div>
+          </a>
+          <a
+            href="/privacy-policy"
+          >
+            <div
+              class="hover:text-brightRed"
+            >
+              Privacy Policy
+            </div>
+          </a>
+        </div>
+      </div>
+      <div
+        class="flex flex-col justify-between"
+      >
+        <form>
+          <div
+            class="flex space-x-3"
+          >
+            <input
+              class="flex-1 rounded-full px-4 focus:outline-none"
+              placeholder="Updated in your inbox"
+              type="text"
+            />
+            <button
+              class="rounded-full bg-brightRed px-6 py-2 text-white hover:bg-brightRedLight focus:outline-none"
+            >
+              Go
+            </button>
+          </div>
+        </form>
+        <div
+          class="hidden text-white md:block"
+        >
+          <h3>
+            © Copyright 2023. All Rights Reserved
+          </h3>
+        </div>
+      </div>
+    </div>
+  </footer>
+</DocumentFragment>
+`;
