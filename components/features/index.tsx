@@ -1,8 +1,6 @@
 import React from 'react'
 import FeatureItem, { IFeatureItem } from './FeatureItem'
 
-type Props = {}
-
 const featureItems: IFeatureItem[] = [
   {
     order: '01',
@@ -24,7 +22,7 @@ const featureItems: IFeatureItem[] = [
   },
 ]
 
-const Features = (props: Props) => {
+const Features = () => {
   return (
     <div className="container mx-auto mt-10 mb-5 flex flex-col space-y-12 px-4 md:flex-row md:space-y-0">
       {/* <!-- What's Different --> */}

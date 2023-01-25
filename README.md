@@ -13,7 +13,7 @@ yarn
 # run
 yarn dev
 #testing
-yarn test
+yarn test -u
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.

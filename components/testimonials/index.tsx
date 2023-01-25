@@ -1,8 +1,5 @@
-import Image from 'next/image'
 import React from 'react'
 import Testimonial from './Testimonial'
-
-type Props = {}
 
 export interface ITestimonial {
   fullName: string
@@ -31,7 +28,7 @@ const testimonials: ITestimonial[] = [
   },
 ]
 
-const Testimonials = (props: Props) => {
+const Testimonials = () => {
   return (
     <div className="mx-auto mt-32 max-w-6xl px-5 text-center">
       {/* <!-- Heading --> */}

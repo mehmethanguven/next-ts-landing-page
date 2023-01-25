@@ -1,8 +1,6 @@
 import { Button } from '@/components/Button'
-import clsx from 'clsx'
 import Image from 'next/image'
 import Link from 'next/link'
-import { useRouter } from 'next/router'
 import React from 'react'
 import NavLink from './NavLink'
 
@@ -21,7 +19,6 @@ const navLinks: INavlink[] = [
 ]
 
 const Header = () => {
-  const router = useRouter()
   return (
     <nav className="container relative mx-auto max-w-7xl p-6">
       <div className="flex items-center justify-between">

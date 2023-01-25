@@ -2,8 +2,6 @@ import Image from 'next/image'
 import React from 'react'
 import { ITestimonial } from '.'
 
-type Props = {}
-
 const Testimonial = ({ description, fullName, imageUrl }: ITestimonial) => {
   return (
     <div className="flex flex-col items-center space-y-6 rounded-lg bg-veryLightGray p-6 md:w-1/3">

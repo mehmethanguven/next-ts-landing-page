@@ -1,8 +1,6 @@
 import React from 'react'
 
-type Props = {}
-
-const CTA = (props: Props) => {
+const CTA = () => {
   return (
     <div className="container mx-auto flex flex-col items-center justify-between space-y-12 px-6 py-24 md:flex-row md:space-y-0 md:py-12">
       {/* <!-- Heading --> */}

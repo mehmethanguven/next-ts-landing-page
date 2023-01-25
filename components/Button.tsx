@@ -4,10 +4,8 @@ import clsx from 'clsx'
 
 export interface ButtonProps
   extends React.ButtonHTMLAttributes<HTMLButtonElement> {
-  color?: any
   className?: string
   href?: string
-  ref?: any
   type?: 'button' | 'submit' | undefined
   children?: React.ReactNode
   onClick?: () => void
@@ -16,29 +14,30 @@ export interface ButtonProps
   disabled?: boolean
 }
 
-export const Button = forwardRef(function Button(
-  {
-    children,
-    variant = 'default',
-    size = 'md',
-    color = 'gray',
-    className,
-    href,
-    type,
-    ...props
-  }: ButtonProps,
-  ref
-) {
-  className = clsx(variant, size, className)
+export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
+  function Button(
+    {
+      children,
+      variant = 'default',
+      size = 'md',
+      className,
+      href,
+      type,
+      ...props
+    }: ButtonProps,
+    ref
+  ) {
+    className = clsx(variant, size, className)
 
-  return href ? (
-    <Link href={href} className={`rounded-lg p-2 ${className}`}>
-      {children}
-    </Link>
-  ) : (
-    // <Link ref={ref} href={href} className={className} {...props} />
-    <button ref={ref} className={`btn ${className}`} {...props}>
-      {children}
-    </button>
-  )
-})
+    return href ? (
+      <Link href={href} className={`rounded-lg p-2 ${className}`}>
+        {children}
+      </Link>
+    ) : (
+      // <Link ref={ref} href={href} className={className} {...props} />
+      <button ref={ref} className={`btn ${className}`} {...props} type={type}>
+        {children}
+      </button>
+    )
+  }
+)
