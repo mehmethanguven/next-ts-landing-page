@@ -1,7 +1,8 @@
 {
-  "name": "next-ts-starter",
+  "name": "next-ts-landing-page-starter",
   "version": "0.1.0",
   "private": true,
+  "author": "Mehmethan Guven",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

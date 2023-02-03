@@ -3,6 +3,12 @@ This is a Next.js landing page demo (Next.js - Typescript - Jest - Cypress - Tai
 Ref: Tailwind Crash Course | Project From Scratch [https://www.youtube.com/watch?v=dFgzHOX84xQ&t=5152s]
 Thanks for Traversy Media
 
+## Author
+
+Mehmethan Guven
+<br/>
+<a href='mailto:mehmethanguven@gmail.com<'>mehmethanguven@gmail.com</a>
+
 ## Getting Started
 
 Install, run and test the development server:
