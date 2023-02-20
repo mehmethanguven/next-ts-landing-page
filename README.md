@@ -8,6 +8,8 @@ Thanks for Traversy Media
 Mehmethan Guven
 <br/>
 <a href='mailto:mehmethanguven@gmail.com<'>mehmethanguven@gmail.com</a>
+<br/>
+Hire me!
 
 ## Getting Started
 
